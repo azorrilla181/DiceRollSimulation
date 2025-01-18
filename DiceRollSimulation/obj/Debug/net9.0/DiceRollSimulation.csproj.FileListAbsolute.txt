@@ -1,0 +1,14 @@
+C:\Users\AEZC2\RiderProjects\DiceRollSimulation\DiceRollSimulation\bin\Debug\net9.0\DiceRollSimulation.exe
+C:\Users\AEZC2\RiderProjects\DiceRollSimulation\DiceRollSimulation\bin\Debug\net9.0\DiceRollSimulation.deps.json
+C:\Users\AEZC2\RiderProjects\DiceRollSimulation\DiceRollSimulation\bin\Debug\net9.0\DiceRollSimulation.runtimeconfig.json
+C:\Users\AEZC2\RiderProjects\DiceRollSimulation\DiceRollSimulation\bin\Debug\net9.0\DiceRollSimulation.dll
+C:\Users\AEZC2\RiderProjects\DiceRollSimulation\DiceRollSimulation\bin\Debug\net9.0\DiceRollSimulation.pdb
+C:\Users\AEZC2\RiderProjects\DiceRollSimulation\DiceRollSimulation\obj\Debug\net9.0\DiceRollSimulation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AEZC2\RiderProjects\DiceRollSimulation\DiceRollSimulation\obj\Debug\net9.0\DiceRollSimulation.AssemblyInfoInputs.cache
+C:\Users\AEZC2\RiderProjects\DiceRollSimulation\DiceRollSimulation\obj\Debug\net9.0\DiceRollSimulation.AssemblyInfo.cs
+C:\Users\AEZC2\RiderProjects\DiceRollSimulation\DiceRollSimulation\obj\Debug\net9.0\DiceRollSimulation.csproj.CoreCompileInputs.cache
+C:\Users\AEZC2\RiderProjects\DiceRollSimulation\DiceRollSimulation\obj\Debug\net9.0\DiceRollSimulation.dll
+C:\Users\AEZC2\RiderProjects\DiceRollSimulation\DiceRollSimulation\obj\Debug\net9.0\refint\DiceRollSimulation.dll
+C:\Users\AEZC2\RiderProjects\DiceRollSimulation\DiceRollSimulation\obj\Debug\net9.0\DiceRollSimulation.pdb
+C:\Users\AEZC2\RiderProjects\DiceRollSimulation\DiceRollSimulation\obj\Debug\net9.0\DiceRollSimulation.genruntimeconfig.cache
+C:\Users\AEZC2\RiderProjects\DiceRollSimulation\DiceRollSimulation\obj\Debug\net9.0\ref\DiceRollSimulation.dll
