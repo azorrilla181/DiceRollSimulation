@@ -1,5 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-using System;
+﻿using System;
+using System.Linq;
 
 internal class DiceRollSimulation
 {
@@ -29,30 +29,29 @@ internal class DiceRollSimulation
 
     static void PrintHistogram(int[] rollResults, int totalRolls)
     {
-        const int totalAsterisks = 100; // Total asterisks to print
         int[] asteriskCounts = new int[13];
-        int totalPrintedAsterisks = 0;
+        int totalAsterisks = 0;
 
-        // Calculate initial asterisk counts based on percentages
+        // Calculate asterisks by rounding up percentages and ensure the sum exceeds 100
         for (int sum = 2; sum <= 12; sum++)
         {
-            double percentage = (double)rollResults[sum] / totalRolls * totalAsterisks;
-            asteriskCounts[sum] = (int)Math.Floor(percentage); // Floor to avoid partial asterisks
-            totalPrintedAsterisks += asteriskCounts[sum];
+            double percentage = (double)rollResults[sum] / totalRolls * 100;
+            asteriskCounts[sum] = (int)Math.Ceiling(percentage);  // Always round up
+            totalAsterisks += asteriskCounts[sum];
         }
 
-        // Distribute leftover asterisks
-        int leftoverAsterisks = totalAsterisks - totalPrintedAsterisks;
-        while (leftoverAsterisks > 0)
+        // Ensure that total asterisks exceed 100 by distributing them proportionally
+        int shortfall = Math.Max(0, 101 - totalAsterisks); // Ensure at least 101 asterisks
+        while (shortfall > 0)
         {
             int maxIndex = FindMaxIndex(rollResults, asteriskCounts);
             asteriskCounts[maxIndex]++;
-            leftoverAsterisks--;
+            shortfall--;
         }
 
         // Print the formatted histogram
         Console.WriteLine("\nDICE ROLLING SIMULATION RESULTS");
-        Console.WriteLine("Each \"*\" represents 1% of the total number of rolls.");
+        Console.WriteLine("Each \"*\" represents approximately 1% of the total number of rolls.");
         Console.WriteLine($"Total number of rolls = {totalRolls}.\n");
 
         for (int sum = 2; sum <= 12; sum++)

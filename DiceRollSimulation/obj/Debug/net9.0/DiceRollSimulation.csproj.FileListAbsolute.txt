@@ -12,3 +12,4 @@ C:\Users\AEZC2\RiderProjects\DiceRollSimulation\DiceRollSimulation\obj\Debug\net
 C:\Users\AEZC2\RiderProjects\DiceRollSimulation\DiceRollSimulation\obj\Debug\net9.0\DiceRollSimulation.pdb
 C:\Users\AEZC2\RiderProjects\DiceRollSimulation\DiceRollSimulation\obj\Debug\net9.0\DiceRollSimulation.genruntimeconfig.cache
 C:\Users\AEZC2\RiderProjects\DiceRollSimulation\DiceRollSimulation\obj\Debug\net9.0\ref\DiceRollSimulation.dll
+C:\Users\AEZC2\RiderProjects\DiceRollSimulation\DiceRollSimulation\obj\Debug\net9.0\DiceRollSimulation.sourcelink.json
